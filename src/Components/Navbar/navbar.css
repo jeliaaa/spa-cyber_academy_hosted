@@ -1,0 +1,38 @@
+.nav_container {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding: 0 2rem;
+ height: 10vh;
+ background-color: rgb(219, 219, 219);
+ box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+ position: sticky;
+ top: 0;
+ z-index: 999;
+}
+
+.logo h1 {
+ font-family: 'Newsreader', serif;
+ font-weight: 400;
+ text-transform: uppercase;
+}
+
+.book_btn {
+ display: flex;
+ align-items: center;
+
+}
+
+.book_btn button {
+ display: flex;
+ flex-direction: row;
+ gap: 10px;
+ font-size: 20px;
+ font-weight: 300;
+ letter-spacing: 2px;
+ padding: 9px 20px;
+ color: #fff;
+ background-color: #c01d29;
+}
+
+.book_btn button p {}
