@@ -12,7 +12,7 @@ const NavbarOffCanvas = () => {
     return (
         <>
             <button onClick={handleShow} className='offCanvasBtn'>
-                <i class="fa-solid fa-bars fa-2xl"></i>
+                <i className="fa-solid fa-bars fa-2xl"></i>
                 MENU
             </button>
 
