@@ -6,6 +6,7 @@ import AboutUs from "./Components/AboutUs/AboutUs";
 import Booking from "./Components/Booking/Booking";
 import Services from "./Components/Services/Services"
 import ContactUs from "./Components/ContactUs/ContactUs"
+import Info from "./Components/ReusableComponents/InfoAfterArticle/Info"
 function App() {
   return (
     <div className="App">
@@ -16,6 +17,7 @@ function App() {
         <Route path="/about" element={<AboutUs />}/>
         <Route path="/services" element={<Services />} />
         <Route path="/contact" element={<ContactUs />} />
+        <Route path="/article-info" element={<Info />} />
       </Routes>
 
     </div>

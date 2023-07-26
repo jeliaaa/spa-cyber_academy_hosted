@@ -1,0 +1,18 @@
+.homevid_container{
+    position: relative;
+    .scroll_button_container{
+        position: absolute;
+        top: 95%;
+        left: 50%;
+        a{
+            text-decoration: none;
+            i{
+                color: white;
+                height: auto;
+            }
+        }
+        a:hover{
+            cursor: pointer;
+        }
+    }
+}

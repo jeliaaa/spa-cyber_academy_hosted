@@ -3,7 +3,7 @@ import "./hero.css";
 
 const HeroLeft = () => {
   return (
-    <div className="hero_container">
+      <div className="hero_container">
       <div className="hero_img">
         <img src="https://picsum.photos/900/" alt="" />
       </div>
@@ -20,6 +20,7 @@ const HeroLeft = () => {
         <button>Explore our rooms and suites</button>
       </div>
     </div>
+    
   );
 };
 
