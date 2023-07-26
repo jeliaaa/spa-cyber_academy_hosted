@@ -1,55 +1,77 @@
-.swiper_container{
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    height: 700px;
-    justify-content: center;
+.swiper_container {
+  padding-top: 10px;
+  background: url("../../assets/hero-comp-background.svg") 0 0 repeat #fff;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 700px;
+  justify-content: center;
 }
-.swiper_wrapper{
+
+.swiper_wrapper {
   .article_swiper {
     overflow-y: visible;
     width: 90%;
+
     .swiper-slide {
+      width: 100%;
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      .card_info {
         width: 100%;
-        text-align: center;
-        font-size: 18px;
-        background: #fff;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        .card_info{
-            width: 100%;
-            padding: 30px 30px;
-            background-color: #e1eff8;
-        }
-        img {
-            display: block;
-            width: 100%;
-            object-fit: cover;
-          }
-        
+        padding: 30px 30px;
+        background-color: #e1eff8;
       }
-      .swiper-pagination{
-        position:absolute;
-        top: -10%;
-        left: 30%;
+
+      img {
+        display: block;
+        width: 100%;
+        object-fit: cover;
       }
-      .swiper-button-next{
-        position:absolute;
-        height: 20px;
-        top: -10%;
-        left: 90%;
+
+    }
+
+    .swiper-pagination {
+      position: absolute;
+      height: 20px;
+      width: fit-content;
+      top: -10%;
+      left: 74.5%;
+
+      .swiper-pagination-bullet {
+        width: 30px;
+        height: 30px;
+        margin: 0 5px;
+        background-color: #ccc;
+        border-radius: 0;
+        cursor: pointer;
       }
-      .swiper-button-prev{
-        position:absolute;
-        height: 20px;
-        top: -10%;
-        left: 70%;
+
+      .swiper-pagination-bullet-active {
+        background-color: #f00;
       }
+    }
+
+    .swiper-button-next {
+      position: absolute;
+      height: 20px;
+      top: -5%;
+      left: 90%;
+      color: #f00;
+    }
+
+    .swiper-button-prev {
+      position: absolute;
+      height: 20px;
+      top: -5%;
+      left: 70%;
+      color: #f00
+    }
   }
 }
-  
-  
-  
-  

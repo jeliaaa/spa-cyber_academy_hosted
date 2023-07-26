@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react';
+import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination, Navigation } from 'swiper/modules';
 import './ArticleSwiper.scss'
@@ -13,7 +13,7 @@ const ArticleSwiper = () => {
                 <Swiper
                     modules={[Navigation, Pagination]}
                     navigation={true}
-                    pagination={{ type: 'bullets' }}
+                    pagination={{ type: 'bullets', clickable: true}}
                     className="article_swiper"
                     slidesPerView={3}
                     spaceBetween={10}

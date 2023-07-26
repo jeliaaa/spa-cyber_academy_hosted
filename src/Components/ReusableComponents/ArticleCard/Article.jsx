@@ -1,9 +1,10 @@
 import React from "react";
 import "./article.css";
+import { Link } from "react-router-dom";
 
 const Article = () => {
   return (
-    <div className="article">
+    <Link to={'/article-info'} className="article" >
       <div className="article_wrapper">
         <div className="article_front">
           <img src="https://picsum.photos/500/" alt="" />
@@ -18,7 +19,8 @@ const Article = () => {
       <div className="article_front_content">
         <h3 className="article_front_title">[title]</h3>
       </div>
-    </div>
+    </Link>
+    
   );
 };
 
