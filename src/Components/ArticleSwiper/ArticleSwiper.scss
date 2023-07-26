@@ -1,0 +1,55 @@
+.swiper_container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+    justify-content: center;
+}
+.swiper_wrapper{
+  .article_swiper {
+    overflow-y: visible;
+    width: 90%;
+    .swiper-slide {
+        width: 100%;
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .card_info{
+            width: 100%;
+            padding: 30px 30px;
+            background-color: #e1eff8;
+        }
+        img {
+            display: block;
+            width: 100%;
+            object-fit: cover;
+          }
+        
+      }
+      .swiper-pagination{
+        position:absolute;
+        top: -10%;
+        left: 30%;
+      }
+      .swiper-button-next{
+        position:absolute;
+        height: 20px;
+        top: -10%;
+        left: 90%;
+      }
+      .swiper-button-prev{
+        position:absolute;
+        height: 20px;
+        top: -10%;
+        left: 70%;
+      }
+  }
+}
+  
+  
+  
+  
