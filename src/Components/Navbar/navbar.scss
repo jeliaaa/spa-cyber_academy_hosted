@@ -1,0 +1,85 @@
+.nav_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+    height: 10vh;
+    background-color: rgb(219, 219, 219);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+
+    h1 {
+        font-family: 'Newsreader', serif;
+        font-weight: 400;
+        text-transform: uppercase;
+        margin: 0;
+    }
+}
+
+.book_btn {
+    display: flex;
+    align-items: center;
+
+    button {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 10px;
+        font-size: 20px;
+        font-weight: 300;
+        letter-spacing: 2px;
+        padding: 5px 20px;
+        color: #fff;
+        background-color: #c01d29;
+        border: none;
+
+        p {
+            margin: 0;
+        }
+
+    }
+}
+
+
+.offCanvasBtn {
+    background-color: rgb(219, 219, 219);
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    i {
+        color: black;
+    }
+}
+
+.offcanvas-start{
+    width: 50%;
+}
+.offCanvas-nav {
+    width: 100%;
+    ul {
+        width: 100%;
+        list-style: none;
+        li{
+            margin: 10px;
+            font-weight: 200;
+            font-size: 45px;
+            a{
+                text-decoration: none;
+                color: black;
+            }
+        }
+        li:hover{
+            font-weight: bold;
+            cursor: pointer;
+        }
+    }
+}

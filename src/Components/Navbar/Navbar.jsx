@@ -1,13 +1,15 @@
 import React from "react";
-import "./navbar.css";
+import "./navbar.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCalendarDays } from "@fortawesome/free-regular-svg-icons";
+import NavbarOffCanvas from "./NavbarOffCanvas";
+
 const Navbar = () => {
+  
   return (
     <div className="nav_container">
-      <div className="burger_menu_btn">
-        <button>burger menu here</button>
-      </div>
+        <NavbarOffCanvas />
+    
       <div className="logo">
         <h1>The Berkley</h1>
       </div>
@@ -20,5 +22,6 @@ const Navbar = () => {
     </div>
   );
 };
+
 
 export default Navbar;
