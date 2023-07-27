@@ -30,7 +30,7 @@ const NavbarOffCanvas = () => {
                                 <Link to={'/booking'}>BOOKING</Link>
                             </li>
                             <li>
-                                <Link to={'/services'}>SERVICES</Link>
+                                <Link to={'/suites-and-rooms'}>SERVICES</Link>
                             </li>
                             <li>
                                 <Link to={'/about'}>ABOUT US</Link>
