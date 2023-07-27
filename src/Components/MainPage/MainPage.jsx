@@ -20,8 +20,7 @@ const MainPage = () => {
       <HeroRight />
       <Article3Cards />
       <HeroRight />
-      <ArticleSwiper /> {/* Keep this component */}
-      {/* footer things */}
+      <ArticleSwiper />
     </div>
   );
 };
