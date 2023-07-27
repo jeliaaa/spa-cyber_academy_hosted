@@ -1,5 +1,10 @@
 .homevid_container{
     position: relative;
+    video{
+        height: calc(100vh - 67px);
+        width: 100%;
+        object-fit: cover;
+    }
     .scroll_button_container{
         position: absolute;
         top: 95%;

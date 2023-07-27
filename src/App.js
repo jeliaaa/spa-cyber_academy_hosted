@@ -7,6 +7,8 @@ import Booking from "./Components/Booking/Booking";
 import Services from "./Components/Services/Services"
 import ContactUs from "./Components/ContactUs/ContactUs"
 import Info from "./Components/ReusableComponents/InfoAfterArticle/Info"
+import SuitesAndRooms from "./Components/SuitsAndRooms/SuitesAndRooms";
+import Footer from "./Components/Footer/Footer";
 function App() {
   return (
     <div className="App">
@@ -18,8 +20,9 @@ function App() {
         <Route path="/services" element={<Services />} />
         <Route path="/contact" element={<ContactUs />} />
         <Route path="/article-info" element={<Info />} />
+        <Route path="/suites-and-rooms" element={<SuitesAndRooms />} />
       </Routes>
-
+      <Footer />
     </div>
   );
 }

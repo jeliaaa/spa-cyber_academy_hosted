@@ -13,7 +13,7 @@ const ArticleSwiper = () => {
                 <Swiper
                     modules={[Navigation, Pagination]}
                     navigation={true}
-                    pagination={{ type: 'bullets', clickable: true}}
+                    pagination={ { type: 'bullets', clickable: true}}
                     className="article_swiper"
                     slidesPerView={3}
                     spaceBetween={10}

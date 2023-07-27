@@ -1,5 +1,6 @@
 import React from 'react'
 import { Element } from 'react-scroll';
+import { Link } from 'react-router-dom';
 const HeroLeftScroll = () => {
     return (
         <Element name="HeroScrollElement">
@@ -17,7 +18,7 @@ const HeroLeftScroll = () => {
                         neighbourhood, all the boutiques and treats of Knightsbridge and
                         Belgravia are on your doorstep.
                     </p>
-                    <button>Explore our rooms and suites</button>
+                    <button><Link to={'/suites-and-rooms'} style={{color: 'white'}}>Explore our rooms and suites</Link></button>
                 </div>
             </div>
         </Element>

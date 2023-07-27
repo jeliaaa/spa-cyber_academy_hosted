@@ -1,5 +1,6 @@
 import React from "react";
 import "./hero.css";
+import { Link } from "react-router-dom";
 
 const HeroLeft = () => {
   return (
@@ -17,7 +18,7 @@ const HeroLeft = () => {
           neighbourhood, all the boutiques and treats of Knightsbridge and
           Belgravia are on your doorstep.
         </p>
-        <button>Explore our rooms and suites</button>
+        <button><Link to={'/suites-and-rooms'} style={{color: 'white'}}>Explore our rooms and suites</Link></button>
       </div>
     </div>
     

@@ -1,0 +1,56 @@
+.compare_container {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    .compare_wrapper {
+        background-color: #e1eff8;
+        padding: 20px 15px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 80vw;
+        align-self: center;
+        .filter_btns {
+            width: 45%;
+            height: 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .compare_button {
+                border: none;
+                padding: 5px;
+                font-size: 16px;
+                text-transform: uppercase;
+                background-color: white;
+                letter-spacing: 5px;
+                margin: 5px;
+                height: 100%;
+                white-space: nowrap;
+            }
+        }
+
+        p {
+            display: flex;
+            align-items: center;
+            margin: 0;
+        }
+
+        .compare_btn {
+            background-color: #ffff;
+            opacity: 0.6;
+            background-color: #c01d29;
+            border: none;
+            padding: 8px 10px;
+            letter-spacing: 2.5px;
+            text-transform: uppercase;
+            color: white;
+        }
+
+        .compare_btn:hover {
+            background-color: #c01d29;
+            opacity: 1;
+        }
+
+    }
+}
