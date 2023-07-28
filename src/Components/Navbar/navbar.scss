@@ -14,7 +14,12 @@
 .logo {
     display: flex;
     align-items: center;
-
+    a{
+        color: black;
+    }
+    a:hover{
+        color: black;
+    }
     h1 {
         font-family: 'Newsreader', serif;
         font-weight: 400;
@@ -26,7 +31,12 @@
 .book_btn {
     display: flex;
     align-items: center;
-
+    a{
+        color: white;
+    }
+    a:hover{
+        color: white;
+    }
     button {
         display: flex;
         flex-direction: row;
@@ -40,8 +50,14 @@
         background-color: #c01d29;
         border: none;
 
+        a{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
         p {
-            margin: 0;
+            margin-bottom: 0;
+            margin-right: 10px;
         }
     }
 }
