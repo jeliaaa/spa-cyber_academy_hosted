@@ -1,73 +1,60 @@
-import React from 'react'
-import "./Footer.scss"
+import React from 'react';
+import './Footer.css';
 
 const Footer = () => {
   return (
-    <footer>
-        <section className="footer_left">
-            <div className="link_cols_wrapper">
-            <div className="links_col">
-                <h3>Suites</h3>
-                <ul>
-                    <li>ALEXALEX</li>
-                    <li>ALEXALEX</li>
-                    <li>ALEXALEX</li>
-                    <li>ALEXALEX</li>
-                    <li>ALEXALEX</li>
-                    <li>ALEXALEX</li>
-                    <li>ALEXALEX</li>
-                </ul>
-                <h3>Gifts</h3>
-                <ul>
-                    <li>ACHIACHI</li>
-                    <li>ACHIACHI</li>
-                </ul>
-            </div>
-            <div className="links_col">
-                <h3>About</h3>
-                <ul>
-                    <li>TINITINI</li>
-                    <li>TINITINI</li>
-                    <li>TINITINI</li>
-                    <li>TINITINI</li>
-                </ul>
-                <h3>Hotel</h3>
-                    <ul>
-                        <li>NIKONIKO</li>
-                        <li>NIKONIKO</li>
-                        <li>NIKONIKO</li>
-                        <li>NIKONIKO</li>
-                        <li>NIKONIKO</li>
-                        <li>NIKONIKO</li>
-                    </ul>
-            </div>
-            </div>
-            <div className="contacts">
-                <h2>FOLLOW US</h2>
-
-            </div>
-        </section>
-        <div className="vertical"></div>
-        <section className="footer_right">
-            <div className="footer_right_content">
-            <h2>SIGNUP</h2>
-            <input type="email" name="email" placeholder='Email' />
-            <h2>FIND US</h2>
-            <img src="https://picsum.photos/300/300" alt="..." />
-            <select name="as" id="as" value={1}>
-            <option value='1'>
-            FACTS
-            </option>
-            <option value='2'>
-            FACTS
-            </option>
-            </select>   
-            
-            </div>
-            
-        </section>
+    <footer className="flex-center">
+      <div className="footerdiv">
+        <aside className="footertop">
+          <div className="footertop1">
+            <h2>ABOUT US</h2>
+            <span>
+              I'm a paragraph. Click here to add your own text and edit me. I'm
+              a great place for you to tell a story and let your users know a
+              little more about you.
+            </span>
+          </div>
+          <div className="footertop2"></div>
+          <div className="footertop3">
+            <h2>ADDRESS</h2>
+            <span>
+              <p>123-456-7890</p>
+              <p>500 Terry Francois Street San Francisco, CA 94158</p>
+              <p>info@mysite.com</p>
+            </span>
+          </div>
+          <div className="footertop4"></div>
+          <div className="footertop5">
+            <h2>SUBSCRIBE FOR EMAILS</h2>
+            <form>
+              <div className="formdiv">
+                <label htmlFor="Enter your email here*">
+                  Enter your email here*
+                </label>
+                <div className="input">
+                  <input type="email" required />
+                  <button>Subscribe Now</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </aside>
+        <aside className='footerbottom'>
+          <div className='footerbottomtext'>
+          <p>
+            <span> © 2023 by HARMONY. Proudly created with </span>
+            <span>Hotel's Name</span>
+          </p>
+          </div>
+          <div className='footericon'>
+          <i class="fa-brands fa-facebook-f"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-instagram"></i>
+          </div>
+        </aside>
+      </div>
     </footer>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;
