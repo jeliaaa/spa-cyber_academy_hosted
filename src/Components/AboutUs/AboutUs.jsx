@@ -1,6 +1,13 @@
-import React from 'react'
+import React, {useEffect} from 'react'
+import Article from '../ReusableComponents/ArticleCard/Article'
 import './aboutUs.scss'
+const aboutUs = [0,1,2,3,4];
 const AboutUs = () => {
+  var Scroll = require('react-scroll');
+  var scroll = Scroll.animateScroll;
+  useEffect(() => {
+    scroll.scrollToTop();
+  }, [])
   return (
     <article className='aboutusmaincontainer'>
       <section className='aboutusfirstchildcontainer'>
@@ -21,66 +28,11 @@ const AboutUs = () => {
       </section>
       <section className='aboutusthirdchildcontainer'>
         <aside>
-          <div className='aboutuscard'>
-            <div className='aboutuscardtop'>
-              <img src="https://www.the-berkeley.co.uk/siteassets/about-the-hotel/awards-teaser-new.jpg?w=850&h=800&scale=both&mode=crop" alt="Photo1" />
-              <div>
-                <p>Get the judges' verdicts on everything from our service to room design.</p>
-                <span>FIND OUT MORE <i class="fa-solid fa-chevron-right"></i></span>
-              </div>
-            </div>
-            <div className='aboutuscardbottom'>
-              <h3>AWARDS</h3> <i class="fa-solid fa-chevron-right hide"></i>
-            </div>
-          </div>
-          <div className='aboutuscard'>
-            <div className='aboutuscardtop'>
-              <img src="https://www.the-berkeley.co.uk/siteassets/about-the-hotel/history-teaser.jpg?w=850&h=800&scale=both&mode=crop" alt="Photo2" />
-              <div>
-                <p>Step back in time to find out where it all started. </p>
-                <span>FIND OUT MORE <i class="fa-solid fa-chevron-right"></i></span>
-              </div>
-            </div>
-            <div className='aboutuscardbottom'>
-              <h3>HISTORY & HERITAGE</h3> <i class="fa-solid fa-chevron-right hide"></i>
-            </div>
-          </div>
-          <div className='aboutuscard'>
-            <div className='aboutuscardtop'>
-              <img src="https://www.the-berkeley.co.uk/siteassets/about-the-hotel/design--features/honeycomb-teaser.jpg?w=850&h=800&scale=both&mode=crop" alt="Photo3" />
-              <div>
-                <p>Discover how The Berkeley's rooms read like a who's who in contemporary design. </p>
-                <span>FIND OUT MORE <i class="fa-solid fa-chevron-right"></i></span>
-              </div>
-            </div>
-            <div className='aboutuscardbottom'>
-              <h3>DESIGN & FEATURES </h3> <i class="fa-solid fa-chevron-right hide"></i>
-            </div>
-          </div>
-          <div className='aboutuscard'>
-            <div className='aboutuscardtop'>
-              <img src="https://www.the-berkeley.co.uk/siteassets/about-the-hotel/families-teaser.jpg?w=850&h=800&scale=both&mode=crop" alt="Photo4" />
-              <div>
-                <p>Find out what you - and your mini VIPs - have to look forward to. </p>
-                <span>FIND OUT MORE <i class="fa-solid fa-chevron-right"></i></span>
-              </div>
-            </div>
-            <div className='aboutuscardbottom'>
-              <h3>SPECIALLY FOR FAMILIES </h3> <i class="fa-solid fa-chevron-right hide"></i>
-            </div>
-          </div>
-          <div className='aboutuscard'>
-            <div className='aboutuscardtop'>
-              <img src="https://www.the-berkeley.co.uk/siteassets/about-the-hotel/our-people/our-people-teaser-shot.jpg?w=850&h=800&scale=both&mode=crop" alt="Photo5" />
-              <div>
-                <p>Read stories of day-to-day life behind the scenes at The Berkeley.  </p>
-                <span>FIND OUT MORE <i class="fa-solid fa-chevron-right"></i></span>
-              </div>
-            </div>
-            <div className='aboutuscardbottom'>
-              <h3>OUR PEOPLE </h3> <i class="fa-solid fa-chevron-right hide"></i>
-            </div>
-          </div>
+          {aboutUs.map(() => {
+            return(
+              <Article />
+            )
+          })}
         </aside>
       </section>
     </article>

@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import { LocalizationProvider } from '@mui/x-date-pickers-pro';
 import { DateRangeCalendar } from '@mui/x-date-pickers-pro/DateRangeCalendar';
 import { AdapterDayjs } from '@mui/x-date-pickers-pro/AdapterDayjs';
@@ -13,7 +13,7 @@ const Booking = () => {
     setRooms([...rooms, number]);
   };
 
-  const removeRoom = (roomIdToRemove) => {
+  const removeRoom = () => {
     setRooms((prevRooms) => prevRooms.slice(0, prevRooms.length - 1));
   };
 
