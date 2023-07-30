@@ -45,8 +45,8 @@
       left: 74.5%;
 
       .swiper-pagination-bullet {
-        width: 30px;
-        height: 30px;
+        width: 15px;
+        height: 15px;
         margin: 0 5px;
         background-color: #ccc;
         border-radius: 0;
@@ -73,5 +73,17 @@
       left: 70%;
       color: #f00
     }
+  }
+}
+@media screen and (max-width: 700px) {
+  .swiper-button-next {
+    left: 95% !important;
+  }
+
+  .swiper-button-prev {
+    left: 0 !important;
+  }
+  .swiper-pagination{
+    left: calc(50% - 50px) !important;
   }
 }

@@ -8,17 +8,16 @@
 }
 footer{
     width: 100%;
-    height: 368px;
     background-color: #DBDBDB;
     gap: 30px;
 }
 
 footer .footerdiv{
     width: 70%;
-    height: 100%;
     display: grid;
     grid-template-columns: 1fr;
     place-content: center;
+    gap: 100px;
 }
 footer .footerdiv .footertop{
     display: flex;
@@ -26,7 +25,6 @@ footer .footerdiv .footertop{
     align-items: center;
     gap: 50px;
     width: 100%;
-    height: 340px !important;
 }
 footer .footerdiv .footertop .footertop2,
 footer .footerdiv .footertop .footertop4{
@@ -160,4 +158,23 @@ footer .footerbottom .footericon{
 }
 footer .footerbottom .footericon i{
     font-size: 24px;
+}
+
+@media screen and (max-width: 600px) {
+    .footerdiv{
+        flex-direction: column;
+    }
+    .footerdiv .footertop{
+        flex-direction: column;
+    }
+    .footertop div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .footerbottom{
+        display: flex;
+        flex-direction: column;
+    }
 }

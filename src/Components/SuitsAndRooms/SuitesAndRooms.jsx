@@ -10,7 +10,6 @@ import SeviceProds from '../ReusableComponents/ServicesProducts/SeviceProds';
 import { Navigation, Pagination } from 'swiper/modules';
 import { useEffect } from 'react';
 
-
 const SuitesAndRooms = () => {
   const SuitesSwiperSlides = [0, 1, 2, 3, 4];
   var Scroll = require('react-scroll');
