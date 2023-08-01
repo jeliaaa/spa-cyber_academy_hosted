@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/spa-cyber_academy_hosted/static/css/main.1a767249.css",
-    "main.js": "/spa-cyber_academy_hosted/static/js/main.438b1078.js",
+    "main.js": "/spa-cyber_academy_hosted/static/js/main.6fd93c98.js",
     "static/media/hero-comp-background.svg": "/spa-cyber_academy_hosted/static/media/hero-comp-background.e3b7c5ba6aec8fec35cb.svg",
     "index.html": "/spa-cyber_academy_hosted/index.html",
     "main.1a767249.css.map": "/spa-cyber_academy_hosted/static/css/main.1a767249.css.map",
-    "main.438b1078.js.map": "/spa-cyber_academy_hosted/static/js/main.438b1078.js.map"
+    "main.6fd93c98.js.map": "/spa-cyber_academy_hosted/static/js/main.6fd93c98.js.map"
   },
   "entrypoints": [
     "static/css/main.1a767249.css",
-    "static/js/main.438b1078.js"
+    "static/js/main.6fd93c98.js"
   ]
 }
