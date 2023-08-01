@@ -21,24 +21,24 @@ const ContactUs = () => {
               }}
               className={`${open ? "active" : "inactive"}`}
             >
-              <i class="fa-solid fa-share-nodes"></i>
+              <i className="fa-solid fa-share-nodes"></i>
             </span>
           </button>
 
           <ul className={`menu ${open ? "active" : "inactive"}`}>
             <li>
               <span>
-                <i class="fa-brands fa-facebook-f"></i>
+                <i className="fa-brands fa-facebook-f"></i>
               </span>
             </li>
             <li>
               <span>
-                <i class="fa-brands fa-twitter"></i>
+                <i className="fa-brands fa-twitter"></i>
               </span>
             </li>
             <li>
               <span>
-                <i class="fa-brands fa-instagram"></i>
+                <i className="fa-brands fa-instagram"></i>
               </span>
             </li>
           </ul>

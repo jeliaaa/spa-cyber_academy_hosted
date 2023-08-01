@@ -24,7 +24,7 @@ const NavbarOffCanvas = () => {
                     <nav className='offCanvas-nav'>
                         <ul>
                             <li>
-                                <Link to={'/'} >HOME</Link>
+                                <Link to={'/spa-cyber_academy_hosted/'} >HOME</Link>
                             </li>
                             <li>
                                 <Link to={'/booking'}>BOOKING</Link>

@@ -14,7 +14,7 @@ function App() {
     <div className="App">
       <Navbar />
       <Routes>
-        <Route index path="/" element={<MainPage />} />
+        <Route index path="/spa-cyber_academy_hosted/" element={<MainPage />} />
         <Route path="/booking" element={<Booking />}/>
         <Route path="/about" element={<AboutUs />}/>
         <Route path="/services" element={<Services />} />

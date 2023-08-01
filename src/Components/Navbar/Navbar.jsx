@@ -16,7 +16,7 @@ const Navbar = () => {
       <NavbarOffCanvas />
 
       <div className="logo">
-        <Link to={'/'}>
+        <Link to={'/spa-cyber_academy_hosted/'}>
           <h1 onClick={scroll.scrollToTop}>The Berkley</h1>
         </Link>
       </div>
